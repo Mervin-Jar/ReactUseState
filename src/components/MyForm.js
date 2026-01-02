@@ -2,6 +2,7 @@ import {useState} from "react";
 
 function MyForm() {
     const [name, setName] = useState('')
+    const [inputs, setInputs] = useState({});
     function handleSubmit(e){
         e.preventDefault();
         console.log('Form Submitted');
